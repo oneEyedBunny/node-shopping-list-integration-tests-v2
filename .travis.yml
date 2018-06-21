@@ -1,3 +1,2 @@
-//tells travis ci to treat the project as a node project
 language: node_js
 node_js: node
