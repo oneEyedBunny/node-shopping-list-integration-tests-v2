@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: acNeyLnbTazfWt1aACtMrih/5Qfy9oiRES/tofjWEU/nVoBaGnYdLql7qtTg5yU41v0Sk4vSGv5z+O3oPoSTSJawMts7PiMoeAsQK9sSxncCrEdHBkfQMHeCgDCi4OBsFDptdsJZNffX8RmkME80FYbFxGcCHpCifirpTaLn0+8TtCzuUr+PK/jHRQVjUBkJki0qCtrRKlCfCWQ46XhpfAX/x+9yW5yzImH1eYcFff7pC+K/UGaxp6JPxWRVeHANKDSbzMEEPINY0zG3yfqehlukw5UsEEa3kkxNxtdJMNxAyfKx1ZV8vDv2vh5O6C0anQSiqZMpvTFa6DL73YfP8RPJZtY7Tsgsyz9Wf1t06VNlpgIcu8jMSNH6mS7xtgDtX6D/vt8wdGUCsM630AVBFDgBaPObvkHC5botZvFPEPtM+bNk9IefyyXGbuciS+xbOAvi7jR/kjgVO7VoE0mH07RTi74t2lh+yPNgCXeba77zsWajydDGp+PpMjxqJv+vyVrHHFhNGsNBrxgUEZjkRGT96aPGXG8kSCHR2PmhpCzDAR//7cb6J2T2R52V+4aqvS5QdgnYH9KKU2v+eSCCZwYrxHh0m4WD2FloMTMkJp4iqMLZ0+/RZmQtopoL4RuGdZ/iLNYAecf3DibWZRQ0qORb/NxxBAg1VFfLSHS45Cw=
+  app: pacific-thicket-94551
+  on:
+    repo: oneEyedBunny/node-shopping-list-integration-tests-v2
