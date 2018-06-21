@@ -92,7 +92,15 @@ describe ('Recipes', function() {
         });
     });
 
-
-
+    //corner case for post route
+      it('should return 400 error POST request', function() {
+        const newItem = {name: 'smores'};
+        return chai.request(app)
+          .post('/recipes')
+          .send(newItem)
+          .then(function(res) {
+            res.should.have.status(400);
+          });
+      });
 
 });// close test function
